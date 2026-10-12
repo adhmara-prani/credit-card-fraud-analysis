@@ -1,0 +1,29 @@
+[project]
+name = "credit-card-fraud-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "adhmara-prani", email = "parth.saxena1021@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "catboost>=1.2.0",
+    "ipykernel>=7.4.0",
+    "kagglehub>=0.1.0",
+    "lightgbm>=4.0.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "plotly>=5.14.0",
+    "scikit-learn>=1.3.0",
+    "seaborn>=0.12.0",
+    "xgboost>=2.0.0",
+]
+
+[project.scripts]
+credit-card-fraud-detection = "credit_card_fraud_detection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

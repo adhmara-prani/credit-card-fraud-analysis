@@ -104,7 +104,7 @@ Top predictive features identified across models:
 ## Getting Started
 
 ### Prerequisites
-- Python 3.10 or higher
+- Python 3.14 or higher
 - pip package manager
 - Kaggle account (for dataset access)
 
@@ -222,28 +222,6 @@ credit-card-fraud-detection/
 4. Implement ensemble of top 3 models for critical transactions
 
 **Expected Impact:** 95%+ fraud detection rate with minimized false positives
-
-## Business Recommendations
-
-### High Priority (0-3 months)
-1. Deploy LightGBM CV model to production environment
-2. Implement real-time fraud scoring API
-3. Set dynamic thresholds based on transaction risk profiles
-4. Monitor false positive rates to balance security vs. customer experience
-
-### Medium Term (3-6 months)
-1. Develop model retraining pipeline with automated performance tracking
-2. Integrate additional features (merchant category, location, device info)
-3. Build customer behavior profiling system
-4. Implement A/B testing framework for model improvements
-
-### Long Term (6-12 months)
-1. Explore deep learning approaches (LSTM, Autoencoders for anomaly detection)
-2. Develop ensemble stacking models combining top performers
-3. Build explainability layer for fraud investigation teams
-4. Implement federated learning for privacy-preserving model updates
-
-**Projected Impact:** 30-40% reduction in fraud losses, 15-20% fewer false positives
 
 ## Resources
 
