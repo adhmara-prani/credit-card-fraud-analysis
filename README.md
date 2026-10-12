@@ -26,9 +26,9 @@ This project analyzes the **Credit Card Fraud Detection dataset** from Kaggle, c
 
 | Model | ROC-AUC Score | Rank |
 |-------|--------------|------|
-| **XGBoost** | **0.9771** | 🥇 Best |
-| LightGBM (CV) | 0.9584 | 🥈 Production |
-| LightGBM | 0.9499 | 🥉 |
+| **XGBoost** | **0.9771** | Best |
+| LightGBM (CV) | 0.9584 | Production |
+| LightGBM | 0.9499 | |
 | RandomForest | 0.8529 | |
 | CatBoost | 0.8578 | |
 | AdaBoost | 0.8135 | |
@@ -91,7 +91,7 @@ Top predictive features identified across models:
 
 ## Technology Stack
 
-- Python 3.10+
+- Python 3.14+
 - pandas, numpy - Data manipulation
 - scikit-learn - RandomForest, AdaBoost, preprocessing
 - XGBoost - Gradient boosting classifier
